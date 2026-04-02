@@ -55,12 +55,14 @@ export default function Calculator() {
         <button onClick={() => handleButtonClick('-')}>-</button>
       </div>
 
-      <div>
-        <button onClick={() => handleButtonClick('0')}>0</button>
-        <button onClick={handleClear}>C</button>
-        <button onClick={handleEquals}>=</button>
-        <button onClick={() => handleButtonClick('+')}>+</button>
-      </div>
+<div>
+  <button onClick={() => handleButtonClick('0')}>0</button>
+  <button onClick={() => handleButtonClick('E')}>E</button>
+  <button onClick={handleClear}>C</button>
+  <button onClick={handleEquals}>=</button>
+  <button onClick={() => handleButtonClick('+')}>+</button>
+</div>
+
     </>
   );
 }
